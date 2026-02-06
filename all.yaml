@@ -19,12 +19,14 @@ spec:
     email: r.karamad_gmail.com
   memberOf: [platform]
 ---
+---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: platform
 spec:
   owner: platform
+---
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
