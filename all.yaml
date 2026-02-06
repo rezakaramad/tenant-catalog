@@ -1,4 +1,18 @@
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform
+spec:
+  type: team
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: platform
+spec:
+  owner: platform
+---
+apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: tenant-foo
