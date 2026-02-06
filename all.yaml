@@ -11,17 +11,6 @@ spec:
 ---
 ---
 apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: reza
-spec:
-  profile:
-    displayName: Reza Karamad
-    email: r.karamad_gmail.com
-  memberOf: [platform]
----
----
-apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: platform
