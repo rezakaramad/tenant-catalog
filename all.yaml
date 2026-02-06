@@ -8,6 +8,17 @@ spec:
   profile:
     displayName: Platform Team
 ---
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: reza
+spec:
+  profile:
+    displayName: Reza Karamad
+    email: r.karamad_gmail.com#EXT#@rkaramadgmail.onmicrosoft.com
+  memberOf: [platform]
+---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
