@@ -4,6 +4,8 @@ metadata:
   name: platform
 spec:
   type: team
+  profile:
+    displayName: Platform Team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
