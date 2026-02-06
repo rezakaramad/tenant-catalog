@@ -5,6 +5,7 @@ metadata:
   name: platform
 spec:
   type: team
+  children: []
   profile:
     displayName: Platform Team
 ---
