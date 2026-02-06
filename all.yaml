@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: tenant-foo
+  title: Tenant Foo
+  description: Demo tenant
+  tags:
+    - tenant
+spec:
+  type: tenant
+  owner: platform
+  system: platform
+  links:
+    - title: GitHub Repo
+      url: https://github.com/jysk-dev/platform-demo-app-on-mvp
+    - title: ArgoCD
+      url: https://argo.company.com/app/foo
+
