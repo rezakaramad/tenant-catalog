@@ -16,7 +16,7 @@ metadata:
 spec:
   profile:
     displayName: Reza Karamad
-    email: r.karamad_gmail.com#EXT#@rkaramadgmail.onmicrosoft.com
+    email: r.karamad_gmail.com
   memberOf: [platform]
 ---
 apiVersion: backstage.io/v1alpha1
